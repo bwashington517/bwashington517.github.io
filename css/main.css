@@ -1,6 +1,18 @@
 body {
     margin: 60px auto;
     width: 70%;
+.bar {
+			background-color: yellow;
+			color: black;
+			width: 100%;
+			z-index: 99999;
+			max-height: 150px;
+			padding: 10px;
+		}
+
+		.top {
+			position: fixed;
+			top: 0;
 }
 
 nav ul, footer ul {
