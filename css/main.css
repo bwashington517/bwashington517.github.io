@@ -2,6 +2,28 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+<head>
+	<style type="text/css">
+		.bar {
+			background-color: yellow;
+			color: black;
+			width: 100%;
+			z-index: 99999;
+			max-height: 150px;
+			padding: 10px;
+		}
+
+		.top {
+			position: fixed;
+			top: 0;
+		}
+
+		.bottom {
+			position: fixed;
+			bottom: 0;
+		}
+	</style>
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
